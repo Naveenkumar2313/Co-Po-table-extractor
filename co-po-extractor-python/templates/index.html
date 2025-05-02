@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CO-PO Table Extractor</title>
+    <style>
+        button:hover{
+            scale: 1.1;
+            transition: all .5s;
+        }
+    </style>
+</head>
+<body style="background: linear-gradient(to right, #B2D8B2, #CCE2CC, #E8E8E8);">
+    <h1 style="font-family: algerian;font-size: 65px; text-align: center;"><u>Co-Po table convertor</u></h1>
+    <h2 style="font-family: algerian;font-size: 35px; text-align: center;">Upload Word File (.docx)</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data" style="text-align: center;">
+        <input type="file" name="file" accept=".docx" required style="cursor: pointer;">
+        <button type="submit" style="height: 50px;width: 200px; cursor: pointer;font-family: 'Times New Roman', Times, serif; color: white;background-color: rgb(0, 145, 145);font-size: 19px;border: solid 2px black; transition: all .5s;">Upload & Convert</button>
+    </form>
+</body>
+</html>
